@@ -1,3 +1,7 @@
-p {
-	font-size: 30px;
+/*universal styles*/
+
+h3 {
+	font-family: "essonnes-display", serif;
+	font-weight: 400;
 }
+
