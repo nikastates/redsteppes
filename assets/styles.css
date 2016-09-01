@@ -5,3 +5,13 @@ h3 {
 	font-weight: 400;
 }
 
+
+/*header styles*/
+
+.name {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 2rem 20% 2rem 20%;
+	background-color: #636D7D;
+}
+
