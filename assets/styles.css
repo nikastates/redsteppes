@@ -29,10 +29,22 @@ a:before {
 	margin: 0;
 	width: 100%;
 	font-family: adobe garamond pro;
-	text-align: center;
 	color: #3D3521;
 }
 
+.bandcamp_link {
+	padding-top: 2rem;
+	padding-left: 4rem;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.contact_link  {
+	padding-top: 2rem;
+	padding-right: 4rem;
+	text-align: right;
+	font-size: 2rem;
+}
 
 .music {
 	padding-top: 3rem;
@@ -46,9 +58,12 @@ a:before {
 	text-align: center;
 }
 
-.svg {
-	max-width: 300px;
-	max-height: 200px;
+.music {
+	padding-top: 3rem;
+	padding-left: 5rem;
+	padding-right: 8rem;
+	padding-bottom: 3rem;
+	background-color: #EBECE5;
 }
 
 .blurb {
@@ -75,7 +90,7 @@ a:before {
 
 .pics { 
   min-height: 697px;
-  background: url('images/Portrait1.jpg') no-repeat center center; 
+  background: url('images/thistles.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,21 +118,40 @@ a:before {
 
 
 .icons {
-		font-size: 3rem;
+	font-size: 3rem;
 }
 
-.fa-music:before {
-	color: #799D80;
+.fa-bandcamp:before {
+	color: #9E9658;
 }
-.fa-music:hover:before {
+.fa-bandcamp:hover:before {
 	color: #A8A495;
 }
 
-.fa-facebook-square:before {
-	color: #9D7155;
+.fa-facebook:before {
+	color: #63827a
+}
+
+.fa-facebook:hover:before {
+	color: #A8A495;
 }
 
 .fa-instagram:before {
-	color: #9E9658;
+	color: 	#9D7155;
 }
 
+.fa-instagram:hover:before {
+	color: #A8A495;
+}
+
+.fa-envelope:before {
+	color: #75aa88;
+}
+
+.fa-envelope:hover:before {
+	color: #A8A495;
+}
+
+.bandcamp_link .fa-bandcamp:before {
+	color: #bab065;
+}
