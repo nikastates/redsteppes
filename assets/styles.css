@@ -1,21 +1,123 @@
-/*universal styles*/
+h1 {
+	font-family: adobe garamond pro;
+	padding-top: 1rem;
+	font-style: italic
+}
 
-h3 {
-	font-family: "essonnes-display", serif;
+h2 {
+	font-family: adobe garamond pro;
+}
+
+h6 {
+	font-family: adobe garamond pro;
+	font-size: .5rem;
 	font-weight: 400;
+	font-style: italic;
 }
 
+a:before {
+	color: #799D80;
+}
 
-/*header styles*/
+.grd {
+ 	padding-left: 0!important;
+ 	padding-right: 0!important;
+}
 
-.name {
+.header {
+	background-color: #EBECE5;
+	margin: 0;
+	width: 100%;
+	font-family: adobe garamond pro;
 	text-align: center;
-	margin: 0 auto;
-	padding-top: 2rem 10rem 2rem 10rem;
-	background-color: ;
-	color: #fff;
+	color: #3D3521;
 }
 
-.nav {
-	display: block;
+
+.music {
+	padding-top: 3rem;
+	padding-left: 5rem;
+	padding-right: 8rem;
+	padding-bottom: 3rem;
+	background-color: #EBECE5;
 }
+
+.name h1 {
+	text-align: center;
+}
+
+.svg {
+	max-width: 300px;
+	max-height: 200px;
+}
+
+.blurb {
+	padding-left: 2rem;
+	font-family: adobe garamond pro;
+	line-height: 1.9rem;
+	color: #3D3521;
+	padding-top: 1rem;
+}
+
+.blurb h2 {
+	font-size: 2.2rem;
+	padding-top: 0rem;
+	margin-top: 0rem;
+}
+
+.blurb p {
+	font-size: 1rem;
+}
+
+.bandcamp {
+	width: 100%;
+}
+
+.pics { 
+  min-height: 697px;
+  background: url('images/Portrait1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer {
+	background-color: #27251f;
+	color: #A8A495;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem 0;
+	font-size: 1.6rem;
+}
+
+.copyright {
+	padding-left: 5rem;
+}
+
+.links {
+	padding-right: 5rem;
+	text-align: right;
+}
+
+
+
+.icons {
+		font-size: 3rem;
+}
+
+.fa-music:before {
+	color: #799D80;
+}
+.fa-music:hover:before {
+	color: #A8A495;
+}
+
+.fa-facebook-square:before {
+	color: #9D7155;
+}
+
+.fa-instagram:before {
+	color: #9E9658;
+}
+
