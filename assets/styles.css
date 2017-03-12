@@ -32,6 +32,36 @@ a:before {
 	color: #3D3521;
 }
 
+.name h1 {
+	text-align: left;
+	padding-left: 4rem;
+}
+
+.nav span {
+	font-size: .8rem;
+    font-style: italic;
+    line-height: 32px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #3D3521;
+}
+
+.nav a:hover span {
+	color: #A8A495;
+}
+
+.fa-bandcamp:before {
+	color: #c5ba67;
+}
+
+a:hover .fa-bandcamp:before {
+	color: #A8A495;
+}
+
 .bandcamp_link {
 	padding-top: 2rem;
 	padding-left: 4rem;
@@ -48,23 +78,12 @@ a:before {
 
 .music {
 	padding-top: 3rem;
-	padding-left: 5rem;
+	padding-left: 4rem;
 	padding-right: 8rem;
 	padding-bottom: 3rem;
 	background-color: #EBECE5;
 }
 
-.name h1 {
-	text-align: center;
-}
-
-.music {
-	padding-top: 3rem;
-	padding-left: 5rem;
-	padding-right: 8rem;
-	padding-bottom: 3rem;
-	background-color: #EBECE5;
-}
 
 .blurb {
 	padding-left: 2rem;
@@ -107,11 +126,11 @@ a:before {
 }
 
 .copyright {
-	padding-left: 5rem;
+	padding-left: 4rem;
 }
 
 .links {
-	padding-right: 5rem;
+	padding-right: 4rem;
 	text-align: right;
 }
 
@@ -121,15 +140,9 @@ a:before {
 	font-size: 3rem;
 }
 
-.fa-bandcamp:before {
-	color: #9E9658;
-}
-.fa-bandcamp:hover:before {
-	color: #A8A495;
-}
 
 .fa-facebook:before {
-	color: #63827a
+	color: #93B4C1
 }
 
 .fa-facebook:hover:before {
@@ -137,7 +150,7 @@ a:before {
 }
 
 .fa-instagram:before {
-	color: 	#9D7155;
+	color: 	#c18850;
 }
 
 .fa-instagram:hover:before {
@@ -145,7 +158,7 @@ a:before {
 }
 
 .fa-envelope:before {
-	color: #75aa88;
+	color: #7ea979;
 }
 
 .fa-envelope:hover:before {
@@ -154,4 +167,12 @@ a:before {
 
 .bandcamp_link .fa-bandcamp:before {
 	color: #bab065;
+}
+
+.fa-pencil:before {
+	color: #c18850;
+}
+
+.fa-camera-retro:before {
+	color: #93B4C1;
 }
