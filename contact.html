@@ -27,28 +27,34 @@
 			</div>
 		</div>
 	</div>
-	<div class='grd-row pics'>
-		<div class='grd-row-col-6--lg portrait'>
-			<div class='front'>
+	<div class='grd-row main main-contact'>
+		<div class='grd-row-col-3-6--lg contact'>
+			<div id='contact-notification'>
+				THANKS!
 			</div>
+			<h3><i class="fa fa-paper-plane" aria-hidden="true"></i></h3>
+			<p>for all inquiries, write below or directly to redsteppes at gmail:</p>
+			<form id="contactform" method="POST">
+				<input type="text" name="name" placeholder="your name">
+				<input type="email" name="_replyto" placeholder="your email">
+				<textarea rows="5"  name="message" placeholder="your message"></textarea>
+				<input type="submit" value="SEND">
+				<input type="hidden" id='next' name="_next" />
+				<input type="hidden" name="_subject" value="Website contact" />
+				<input type="text" name="_gotcha" style="display:none" />
+			</form>
+			<script>
+				var contactform =  document.getElementById('contactform');
+				contactform.setAttribute('action', '//formspree.io/' + 'redsteppes' + '@' + 'gmail' + '.' + 'com');
+				var next = document.getElementById('next');
+				next.setAttribute('value', window.location.href + '?thanks');
+				if (window.location.search == '?thanks') {
+					var notification = document.getElementById('contact-notification');
+					notification.style.display = 'block';
+				}
+			</script>
 		</div>
 	</div>
-	<div class='grd-row music'>
-		<div class='grd-row-col-2-6--lg record'>
-			<div class='bandcamp'>
-				<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=1578927612/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="http://redsteppes.bandcamp.com/track/rampages-eastward">Rampages Eastward by red steppes</a></iframe>
-			</div>
-		</div>
-		<div class='grd-row-col-4-6--lg copy'>
-			<div class='blurb'>
-				<h2>A MOUTH MAY GROW</h2>
-				<p>
-<i>A Mouth May Grow</i> is the first full length from red steppes. Helmed by songwriter and photographer Nika Aila States (also of TOTONOKO), the project is a further exploration of the themes she approaches in her wider artistic practice: yearning for a sense of place, the positioning of botany and landscape as teacher and translator, and interrogations of broader narrative tropes surrounding love, sex, gender, and industry. It's also just earnest folk music, colored by a deep respect both for age-old melodic traditions and for the experimental and the irreverent. Recorded and mixed to tape at Tiny Telephone, the songs are built from organic and felt performances, drawing their aesthetic language from the bounded period of long days and evenings in the studio, from the generous limitations of tape, and from their subject matter: mapped points on the western coast of the US, growth and decay, and the pregnant silence of uninhabited places.
-				</p>
-			</div>
-		</div>
-	</div>
-	
 	<div class='grd-row footer'>
 		<div class='grd-row-col-2-6--lg copyright'>
 			<h6>&copy; 2017 Nika Aila States. Website design by Nika Aila States.
