@@ -82,8 +82,32 @@ a:before {
 	color: #c5ba67;
 }
 
+.fa-camera-retro {
+	padding-left: 10px;
+}
+
+.fa-pencil {
+	padding-left: 10px;
+}
+
+.fa-envelope {
+	padding-left: 10px;
+}
+
+
 a:hover .bandcamp:before {
 	color: #A8A495;
+}
+
+.front p {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 8rem;
+	bottom: 0;
+}
+
+.front a:before {
+	color: #EBECE5;
 }
 
 .bandcamp_link {
@@ -134,25 +158,9 @@ a:hover .bandcamp:before {
 	width: 100%;
 }
 
-.photocopy {
-	background-color: #93B4C1;
-	color: #3D3521;
-	text-align: center;
-	padding: 1rem;
-	font-family: "adobe garamond pro";
-	font-style: italic;
-}
-
-.photos {
-	padding-top: 2rem;
-	background-color: #93B4C1
-}
-
 .portraits {
-	border: 10px solid;
-	border-color: #EBECE5;
-	margin: 10px;
 	display: block;
+	line-height: 0;
 }
 
 .lyrics {
