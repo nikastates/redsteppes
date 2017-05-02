@@ -393,3 +393,11 @@ input[type='submit'] {
 .fa-camera-retro:before {
 	color: #93B4C1;
 }
+
+.portrait {
+  position: relative;
+}
+.front {
+  position: absolute;
+  bottom: 0px;
+}
