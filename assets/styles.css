@@ -99,15 +99,24 @@ a:hover .bandcamp:before {
 	color: #A8A495;
 }
 
-.front p {
+.front {
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bullshit {
 	text-align: center;
 	vertical-align: bottom;
 	font-size: 8rem;
-	bottom: 0;
 }
 
-.front a:before {
+.bullshit i:before {
 	color: #EBECE5;
+}
+
+.bullshit a:hover i:before {
+	color: #CCB25A;
 }
 
 .bandcamp_link {
