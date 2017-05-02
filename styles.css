@@ -1,0 +1,386 @@
+h1 {
+	font-family: adobe garamond pro;
+	padding-top: 1rem;
+	font-style: italic
+}
+
+h2 {
+	font-family: adobe garamond pro;
+}
+
+h6 {
+	font-family: adobe garamond pro;
+	font-size: .5rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+h3 {
+	font-family: adobe garamond pro;
+}
+
+hr {
+	color: #3D3521;
+    border-style: dotted;
+}
+
+
+
+/* styles */
+
+
+
+a:before {
+	color: #799D80;
+}
+
+.grd {
+ 	padding-left: 0!important;
+ 	padding-right: 0!important;
+}
+
+.header {
+	background-color: #EBECE5;
+	margin: 0;
+	width: 100%;
+	font-family: adobe garamond pro;
+	color: #3D3521;
+}
+
+.name h1 {
+	text-align: left;
+	padding-left: 4rem;
+}
+
+.name a:hover {
+	color: #A8A495;
+}
+
+.name a {
+	text-decoration: none;
+	color: #3D3521;
+}
+
+.nav span {
+	font-size: .8rem;
+    font-style: italic;
+    line-height: 32px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #3D3521;
+}
+
+.nav a:hover span {
+	color: #A8A495;
+}
+
+.fa-bandcamp:before {
+	color: #c5ba67;
+}
+
+.fa-camera-retro {
+	padding-left: 10px;
+}
+
+.fa-pencil {
+	padding-left: 10px;
+}
+
+.fa-envelope {
+	padding-left: 10px;
+}
+
+
+a:hover .bandcamp:before {
+	color: #A8A495;
+}
+
+.front p {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 8rem;
+	bottom: 0;
+}
+
+.front a:before {
+	color: #EBECE5;
+}
+
+.bandcamp_link {
+	padding-top: 2rem;
+	padding-left: 4rem;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.contact_link  {
+	padding-top: 2rem;
+	padding-right: 4rem;
+	text-align: right;
+	font-size: 2rem;
+}
+
+.music {
+	padding-top: 3rem;
+	padding-left: 4rem;
+	padding-right: 8rem;
+	padding-bottom: 3rem;
+	background-color: #EBECE5;
+}
+
+.copy h2 {
+	padding-bottom: .8rem; 
+}
+
+.blurb {
+	padding-left: 2rem;
+	font-family: adobe garamond pro;
+	line-height: 1.9rem;
+	color: #3D3521;
+	padding-top: 1rem;
+}
+
+.blurb h2 {
+	font-size: 2.2rem;
+	padding-top: 0rem;
+	margin-top: 0rem;
+}
+
+.blurb p {
+	font-size: 1rem;
+}
+
+.bandcamp {
+	width: 100%;
+}
+
+.portraits {
+	display: block;
+	line-height: 0;
+}
+
+.lyrics {
+	padding-top: 3rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-bottom: 3rem;
+	background-color: #D1AF8A;
+}
+
+.lyrics h2  {
+	font-size: 1rem;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #EBECE5;
+  color: #3D3521;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-family: "adobe garamond pro";
+  font-size: .8rem;
+  font-style: italic;
+}
+
+#myBtn:hover {
+  background-color: #3D3521;
+  color: #C18850;
+}
+
+.songs {
+	padding-top: 2rem;
+}
+
+.songindex p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.songindex {
+	font-family: adobe garamond pro;
+	font-size: 1rem;
+	color: #3D3521;
+}
+
+.songindex a {
+	font-size: .9rem;
+    font-style: italic;
+    font-family: adobe garamond pro;
+    text-decoration: none;
+    color: #EBECE5;
+}
+
+.songindex a:hover{
+	color: #a57341;
+}
+
+.amouthmaygrow {	
+	font-family: adobe garamond pro;
+	line-height: 1.9rem;
+	color: #3D3521;
+	padding-bottom: 2rem;
+}
+
+.amouthmaygrow h2 {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+	color: #EBECE5;
+	font-style: italic;
+}
+
+.pics { 
+  min-height: 697px;
+  background: url('images/thistles.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-contact {
+	padding: 5rem;
+	background: url('images/bigsur.jpg') no-repeat center center; 
+}
+
+.contact {
+	margin: 0 auto;
+	max-width: 30rem;
+	font-size: 1rem;
+	padding: 2rem 0 7rem;
+}
+
+.contact p {
+    background: #EBECE5;
+    border-radius: 1px;
+    color: #767771;
+    font-size: .8rem;
+    margin: auto 0;
+    padding: .4rem 0 .4rem;
+    text-align: center;
+    font-family: "adobe garamond pro";
+    font-style: italic;
+}
+
+
+
+.contact input[type="text"], .contact input[type="email"], .contact textarea {
+    font-family: "adobe garamond pro";
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.contact h3 {
+	font-size: 1.5rem;
+	text-align: center;
+	padding-bottom: 0;
+	color: #EBECE5;
+	padding-bottom: 1rem;
+}
+
+#contact-notification {
+	background: #6B8E9B;
+	display: none;
+	border-radius: 1px;
+	color: #092B38;
+	font-weight: 700;
+}
+
+
+input, textarea {
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: block;
+	width: 100%;
+	box-shadow: none;
+	border: none!important;
+	border-radius: 1px;
+	font-family: "adobe garamond pro", serif;
+	background-color: #EBECE5;
+	opacity: .8;
+}
+
+input[type='submit'] {
+	font-family: "adobe garamond pro", serif;
+	color: #EBECE5;
+	background-color: #88a979;
+	opacity: 1;
+	font-style: italic;
+}
+
+/* #88a979 */
+
+.footer {
+	background-color: #27251f;
+	color: #A8A495;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem 0;
+	font-size: 1.6rem;
+	position: relative;
+	z-index: 100;
+}
+
+.copyright {
+	padding-left: 4rem;
+}
+
+.links {
+	padding-right: 4rem;
+	text-align: right;
+}
+
+
+
+.icons {
+	font-size: 3rem;
+}
+
+
+.fa-facebook:before {
+	color: #93B4C1
+}
+
+.fa-facebook:hover:before {
+	color: #A8A495;
+}
+
+.fa-instagram:before {
+	color: 	#c18850;
+}
+
+.fa-instagram:hover:before {
+	color: #A8A495;
+}
+
+.fa-envelope:before {
+	color: #7ea979;
+}
+
+.fa-envelope:hover:before {
+	color: #A8A495;
+}
+
+.bandcamp_link .fa-bandcamp:before {
+	color: #bab065;
+}
+
+.fa-pencil:before {
+	color: #c18850;
+}
+
+.fa-camera-retro:before {
+	color: #93B4C1;
+}
