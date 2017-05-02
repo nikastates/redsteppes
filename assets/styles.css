@@ -405,6 +405,15 @@ input[type='submit'] {
 	color: #93B4C1;
 }
 
+<<<<<<< HEAD
 .fa-camera-retro:hover:before {
 	color: #A8A495;
+=======
+.portrait {
+  position: relative;
+}
+.front {
+  position: absolute;
+  bottom: 0px;
+>>>>>>> origin/v1-aviv
 }
