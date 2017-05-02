@@ -141,7 +141,7 @@ a:hover .bandcamp:before {
 }
 
 .copy h2 {
-	padding-bottom: .8rem; 
+	padding-bottom: .8rem;
 }
 
 .blurb {
@@ -234,7 +234,7 @@ a:hover .bandcamp:before {
 	color: #a57341;
 }
 
-.amouthmaygrow {	
+.amouthmaygrow {
 	font-family: adobe garamond pro;
 	line-height: 1.9rem;
 	color: #3D3521;
@@ -249,9 +249,9 @@ a:hover .bandcamp:before {
 	font-style: italic;
 }
 
-.pics { 
+.pics {
   min-height: 697px;
-  background: url('images/thistles.jpg') no-repeat center center; 
+  background: url('images/thistles.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -260,7 +260,7 @@ a:hover .bandcamp:before {
 
 .main-contact {
 	padding: 5rem;
-	background: url('images/bigsur.jpg') no-repeat center center; 
+	background: url('images/bigsur.jpg') no-repeat center center;
 }
 
 .contact {
@@ -416,4 +416,12 @@ input[type='submit'] {
   position: absolute;
   bottom: 0px;
 >>>>>>> origin/v1-aviv
+}
+
+.portrait {
+  position: relative;
+}
+.front {
+  position: absolute;
+  bottom: 0px;
 }
