@@ -78,10 +78,6 @@ a:before {
 	color: #A8A495;
 }
 
-.fa-bandcamp:before {
-	color: #c5ba67;
-}
-
 .fa-camera-retro {
 	padding-left: 10px;
 }
@@ -99,10 +95,13 @@ a:hover .bandcamp:before {
 	color: #A8A495;
 }
 
+.portrait {
+	position: relative;
+}
+
 .front {
-	width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .bullshit {
@@ -374,6 +373,14 @@ input[type='submit'] {
 	color: #A8A495;
 }
 
+.fa-bandcamp:before {
+	color: #c5ba67;
+}
+
+.fa-bandcamp:hover:before {
+	color: #A8A495;
+}
+
 .fa-envelope:before {
 	color: #7ea979;
 }
@@ -390,6 +397,14 @@ input[type='submit'] {
 	color: #c18850;
 }
 
+.fa-pencil:hover:before {
+	color: #A8A495;
+}
+
 .fa-camera-retro:before {
 	color: #93B4C1;
+}
+
+.fa-camera-retro:hover:before {
+	color: #A8A495;
 }
