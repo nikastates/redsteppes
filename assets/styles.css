@@ -90,7 +90,6 @@ a:before {
 	padding-left: 10px;
 }
 
-
 a:hover .bandcamp:before {
 	color: #A8A495;
 }
@@ -100,14 +99,25 @@ a:hover .bandcamp:before {
 }
 
 .front {
-    position: absolute;
-    bottom: 0px;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: 0rem;
+
+}
+
+.listennow p {
+	visibility: hidden;
+	color: #3D3521;
+	font-family: 'adobe garamond pro';
+	font-style: italic;
+	padding-bottom: 8rem;
 }
 
 .bullshit {
-	text-align: center;
-	vertical-align: bottom;
 	font-size: 8rem;
+	width: 100%;
+	text-align: center;
 }
 
 .bullshit i:before {
@@ -115,7 +125,7 @@ a:hover .bandcamp:before {
 }
 
 .bullshit a:hover i:before {
-	color: #CCB25A;
+	opacity: .7;
 }
 
 .bandcamp_link {
@@ -405,23 +415,8 @@ input[type='submit'] {
 	color: #93B4C1;
 }
 
-<<<<<<< HEAD
 .fa-camera-retro:hover:before {
 	color: #A8A495;
-=======
-.portrait {
-  position: relative;
-}
-.front {
-  position: absolute;
-  bottom: 0px;
->>>>>>> origin/v1-aviv
 }
 
-.portrait {
-  position: relative;
-}
-.front {
-  position: absolute;
-  bottom: 0px;
-}
+
